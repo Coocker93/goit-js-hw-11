@@ -1,0 +1,27 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .photo-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .info {
+    margin-top: 10px;
+  }
+  
+  .info-item {
+    margin: 5px 0;
+  }
+  
